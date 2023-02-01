@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.bennyboy1695.doomscroller.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "doomscroller.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinChatComponent"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
